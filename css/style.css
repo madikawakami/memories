@@ -1,0 +1,9 @@
+h3 {
+	border: solid 5px;
+	color: pink;
+}
+.second{
+	border: black solid;
+	height: 200px;
+	width: 200px;
+}
