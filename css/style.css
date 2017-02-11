@@ -4,10 +4,26 @@ h3 {
 	text-align:center;
 	height: 100px;
 }
-.second{
+.first{
 	border: black solid;
-	height: 200px;
-	width: 200px;
 	color: pink;
+	width: 200px; 
+	height: 200px;
+    backface-visibility: hidden;
+    transition: transform 0.3s;
+    position: relative;
+    justify-content: center;
+    align-content: flex-start;
 
 }
+
+.back{
+	width: 200px;
+	height: 200px;
+	transition: transform 0.3s;
+	position: relative;
+	justify-content: center;
+	backface-visibility: hidden;
+	align-content: flex-end;
+}
+
