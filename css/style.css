@@ -4,17 +4,16 @@ h3 {
 	text-align:center;
 	height: 100px;
 }
-.first{
+.front{
 	border: black solid;
 	color: pink;
 	width: 200px; 
 	height: 200px;
-    backface-visibility: hidden;
     transition: transform 0.3s;
     position: relative;
     justify-content: center;
     align-content: flex-start;
-
+    backface-visibility: hidden;
 }
 
 .back{
@@ -24,6 +23,5 @@ h3 {
 	position: relative;
 	justify-content: center;
 	backface-visibility: hidden;
-	align-content: flex-end;
 }
 
